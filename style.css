@@ -1,0 +1,74 @@
+body{
+    background-color: #a7a7a7;
+    color: #97000094;
+    font-family: arial, sans-serif;
+    background-image: url(images/-.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clear-right{
+    clear: right;
+}
+
+figure{
+    float: right;
+    margin-left: 10px;
+    border: 2px solid #000000b6;
+    box-shadow: 8px 8px 15px #ff0000;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    opacity: 70%;
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    mask-size: 100% 100%;
+}
+
+figcaption{
+    color: #ff000096;
+    text-align: right;
+    margin-right: 15px;
+}
+
+.envio{
+    width: 100%;
+    text-align: right;
+}
+
+.assassino{
+    opacity: 40%;
+}
+
+button{
+    background-color: #4100008e;
+    color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.enviar:hover{
+    background-color: #009700;
+    color: #000;
+}
+
+.cancelar:hover{
+    background-color: #ffd0009d;
+    color: #000;
+}
+
+.foguete{
+    width: 400px;
+    margin-top: 65px;
+    opacity: 70%;
+}
+
+a{
+    color: #ff0000c7;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: blue;
+}
